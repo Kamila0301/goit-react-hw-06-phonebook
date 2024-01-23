@@ -1,5 +1,4 @@
 import { useDispatch } from 'react-redux';
-
 import { deletedContacts } from '../redux/contactSlice';
 import { DeleteButton } from './ContactItem.styled';
 import { toast } from 'react-toastify';
