@@ -25,7 +25,7 @@ export const contactsSlice = createSlice({
     deletedContacts(state, action) {
       return state.filter(contact => contact.id !== action.payload);
     },
-    resetContact(state, action) {
+    resetContact() {
       return defaultContacts;
     },
   },

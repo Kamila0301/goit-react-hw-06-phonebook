@@ -59,13 +59,13 @@ export const ContactForm = () => {
           <label>
             Name
             <StyledField name="name" />
-            <StyledError name="name" component="div" />
+            <StyledError name="name" />
           </label>
 
           <label>
             Phone Number
-            <StyledField name="number" placeholder="XXX-XX-XX" />
-            <StyledError name="number" component="div" />
+            <StyledField name="number" />
+            <StyledError name="number" />
           </label>
 
           <AddButton type="submit">Add contact</AddButton>
